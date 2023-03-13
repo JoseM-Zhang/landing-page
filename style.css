@@ -25,6 +25,8 @@ body {
 .introduction {
     display: flex;
     align-items: center;
+    background-color: #DF4C58;
+    color: white;
 }
 
 .intro-left {
@@ -32,12 +34,14 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: 30px;
 }
 
 .intro-right {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .band-members-section {
@@ -57,4 +61,14 @@ body {
 .intro-right > img {
     max-width: 60%;
     max-height: 60%;
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color: white;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
 }
