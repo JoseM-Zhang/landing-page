@@ -72,6 +72,10 @@ body {
     height: auto;
 }
 
+.intro-left > p {
+    font-size: large;
+}
+
 .intro-right > img {
     max-width: 60%;
     max-height: 60%;
@@ -152,10 +156,20 @@ body {
 
 h2 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: xxx-large;
 }
 
+h4 {
+    font-size: large;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    color:inherit
+}
 
 button {
     padding: 8px 16px;
